@@ -1,10 +1,10 @@
 def any7(nums):
     """Are any of these numbers a 7? (True/False)"""
-    for num in nums:
-        if num == 7:
-            print("True")
-        else:
-            print("False")
+    x = nums.count(7)
+    if (x > 0):
+        return True
+    else:
+        return False
 
     # YOUR CODE HERE
 
